@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+.background {
+    background: #4055b2;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    background: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.content{
+    height: 600px;
+    background: #18266a;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.content h3{
+    padding-top: 200px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+.content a{
+    padding: 10px 70px;
+    border-radius: 25px;
+    background: #fff;
+    color: #000;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.form-row input{
+    height: 50px;
+    width: 500px;
+    background: rgba(168, 163, 163, 0.4);
+    border-bottom: 2px solid #000;
+   
+}
+.form-row input::placeholder{
+    color: #000;
+    font-weight: 500;
+}
+.sign-btn input{
+    padding: 15px 80px;
+    background:#4055b2;
+    color: #fff;
+    border-radius: 5px;
+}
+h6{
+    color: #129dd8;
+}
+
+.form-control:focus{
+   border: none;
+}
+
+.form-row img{
+    height: 20px;
+    margin-left: 460px;
+    top: 345px;
+    position: absolute;
+}
+
+@media (max-width: 992px)  {
+    .background{
+        height: 180vh;
+    }
+    .form-row img{
+        top: 940px;
+    }
+    .sign-btn a{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
