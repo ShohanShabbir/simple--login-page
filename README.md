@@ -1,5 +1,5 @@
 # simple-login-page
-#It's a simple login page.
+# It's a simple login page.
 ## Technology Used:
 1. HTML
 2. CSS
